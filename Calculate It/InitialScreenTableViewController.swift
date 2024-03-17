@@ -15,7 +15,9 @@ class InitialScreenTableViewController: UIViewController {
     
         Circle(shapeName: "Circle", icon: UIImage(named: "circle_icon")!),
         RightTriangle(shapeName: "Right Triangle", icon: UIImage(named: "right-triangle")!),
-        ScaleneTriangle(shapeName: "Scalene Triangle", icon: UIImage(named: "scalene-triangle")!)
+        ScaleneTriangle(shapeName: "Scalene Triangle", icon: UIImage(named: "scalene-triangle")!),
+        EquilateralTriangle(shapeName: "Equilateral Triangle", icon: UIImage(named: "equilateral-triangle")!)
+        
     
     ]
     

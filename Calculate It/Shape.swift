@@ -68,3 +68,19 @@ class ScaleneTriangle : BaseShape {
     }
     
 }
+
+class EquilateralTriangle : BaseShape {
+    
+    func area(area: Double) -> Double {
+        
+        return (sqrt(3) / 4) * pow(area, 2)
+        
+    }
+    
+    func perimeter(side: Double) -> Double {
+        
+        return 3 * side
+        
+    }
+    
+}
